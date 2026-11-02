@@ -1,0 +1,8 @@
+# Bundle patch layer for dsh-pdf-native.
+#
+# One row: load this package's main entry as the Host half. The Host half is a
+# no-op plugin; all behaviour lives in the browser half declared by
+# package.json's `dsh.client`.
+- insert:
+    - id: pdf-native
+      name: 'dsh-pdf-native'
