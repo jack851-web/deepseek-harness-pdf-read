@@ -1,8 +1,8 @@
-# Bundle patch layer for dsh-pdf-native.
+# Bundle patch layer for dsh-file-toolkit.
 #
-# One row: load this package's main entry as the Host half. The Host half is a
-# no-op plugin; all behaviour lives in the browser half declared by
+# One row: load this package's main entry as the Host half. The Host half
+# serves the two RPC routes; all UI lives in the browser half declared by
 # package.json's `dsh.client`.
 - insert:
-    - id: pdf-native
-      name: 'dsh-pdf-native'
+    - id: file-toolkit
+      name: 'dsh-file-toolkit'

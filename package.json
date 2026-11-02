@@ -1,8 +1,8 @@
 {
-  "name": "dsh-pdf-native",
-  "version": "0.1.0",
+  "name": "dsh-file-toolkit",
+  "version": "1.0.0",
   "private": true,
-  "description": "Prototype: render sidebar PDF previews in an iframe so the browser's native PDF viewer (PDFium) is used instead of pdf.js.",
+  "description": "DeepSeek Harness sidebar file tools: native PDF preview with highlighted search, plus a file-tree context menu (paths, copy/paste, open, rename, delete to recycle bin).",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
